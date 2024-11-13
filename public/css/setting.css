@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: header;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+:root {
+    --Noir-Black: #0C0606;
+    --Batman: #1C1B17;
+    --Grayish-White: #FFFFFFAB;
+    --Noir: #0F0D0D;
+
+
+
+
+}
+
+@font-face {
+    font-family: Cormo;
+    src: url('../fonts/CormorantGaramond-Regular.eot');
+    src: url('../fonts/CormorantGaramond-Regular.ttf');
+    src: url('../fonts/CormorantGaramond-Regular.woff');
+    src: url('../fonts/CormorantGaramond-Regular.woff2');
+
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(../fonts/Montserrat-Regular.eot);
+    src: url(../fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.woff);
+    src: url(../fonts/Montserrat-Regular.woff2);
+
+}
+
+@font-face {
+    font-family: CormoItalic;
+    src: url(../fonts/CormorantGaramond-LightItalic.eot);
+    src: url(../fonts/CormorantGaramond-LightItalic.ttf);
+    src: url(../fonts/CormorantGaramond-LightItalic.woff);
+    src: url(../fonts/CormorantGaramond-LightItalic.woff2);
+}
