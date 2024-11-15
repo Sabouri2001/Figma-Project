@@ -86,7 +86,7 @@
     padding-right: 105px;
     display: flex;
     flex-flow: column wrap;
-    gap: 47px;
+    gap: 35px;
 
 
 }
@@ -99,6 +99,7 @@
     font-size: 35px;
     font-family: Cormo;
     font-weight: 700;
+    margin-top: 20px;
 }
 .Essay>p {
 font-size: 22px;
@@ -106,4 +107,181 @@ line-height: 26.82px;
 font-family: Mont ;
 font-weight: 400;
 }
+
+.ReadMore {
+    width: 21%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: 1px solid #E1DBD7;
+    color: #FFFFFFD9;
+  
+}
+.ReadMore>span {
+    font-family: Mont;
+    color: white;
+}
 /* article end */
+
+/* Gifts start */
+.GiftWrapper {
+    width: 100%;
+    height: 599px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Gifts {
+    width: 100%;
+    height: 498px;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: transparent;
+    justify-content: space-between;
+
+
+}
+.Sample {
+    width: 43%;
+    height: auto;
+}
+.Sample>img {
+   height: 100%;
+   width: 100%;
+    object-fit: cover;
+}
+.GiftText {
+    width: calc(100% - 43%);
+    background-color: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
+    linear-gradient(275.66deg, rgba(119, 150, 175, 0.2) 17.15%, rgba(255, 255, 255, 0.2) 51.12%);
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 104px;
+    padding-right: 102px;
+    padding-top: 85px;
+    gap: 25px;
+}
+.GiftText>h3 {
+    font-size: 45px;
+    font-family: Cormo;
+    font-weight: 700;
+    
+}
+.GiftText>p {
+    font-size: 23px;
+    font-family: Mont;
+    font-weight: 400;
+}
+.ShopGift {
+    width: 25%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #0C0606;
+    color: #0C0606;
+}
+.ShopGift>span {
+    font-family: Karla;
+    font-weight: 700;
+    font-size: 21px;
+}
+/* Gifts end */
+
+
+/* article start */
+.Article {
+    width: 100%;
+    height: 638px;
+    background-color: var(--Noir) ;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Model2 {
+    width: 44.5%;
+    height: 100%;
+}
+.Model2>img {
+   height: 100%;
+    object-fit: cover;
+}
+
+.Essay2 {
+    width: calc(100% - 44.5%);
+    height: 100%;
+    color: white;
+    padding-left: 75px;
+    padding-top: 42px;
+    padding-right: 105px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 35px;
+
+
+}
+.Essay2>span {
+    font-size: 19px;
+    font-weight: 400;
+   
+}
+.Essay2>h3 {
+    font-size: 35px;
+    font-family: Cormo;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.Essay2>p {
+font-size: 22px;
+line-height: 26.82px;
+font-family: Mont ;
+font-weight: 400;
+}
+
+.ReadMore2 {
+    width: 24%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 19px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: 1px solid #E1DBD7;
+    color: #FFFFFFD9;
+  
+}
+.ReadMore2>span {
+    font-family: Mont;
+    color: white;
+}
+/* article end */
+
+figcaption {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+figcaption>span {
+    font-size: 18px;
+    font-family: Cormo;
+    color: #000000B2;
+    ;
+}
+figcaption>p {
+    font-size: 22px;
+    font-family: Cormo;
+}
