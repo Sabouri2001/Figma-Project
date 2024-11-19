@@ -55,7 +55,12 @@
         padding-right: 100px;
         gap: 60px;
     }
-    
+    .BarIcon {
+        display: none;
+    }
+    .icons2 {
+        display: none;
+    }
     .search {
         width: 30%;
         height: 32px;

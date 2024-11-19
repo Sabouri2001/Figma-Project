@@ -7,13 +7,14 @@
     }
     .menu {
         width: 100%;
-        height: 83px;
+        height: 100px;
         background-color: var(--Batman);
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
         position: relative;
+        direction: rtl;
     }
     
     .info {
@@ -34,6 +35,11 @@
         display: flex;
         align-items: center;
         gap: 40px;
+        display: none;
+    }
+
+    .location {
+        display: none;
     }
     
     .InfonLocation {
@@ -44,6 +50,7 @@
         height: 100%;
         padding-left: 100px;
         gap: 40px;
+       
     }
     
     .SearchnIcon {
@@ -54,11 +61,12 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 100px;
-        gap: 60px;
+        gap: 34px;
+        padding-left: 50px;
     }
     
     .search {
-        width: 196px;
+        width: 60%;
         height: 32px;
         background-color: transparent;
         border-bottom: 1px solid var(--Grayish-White);
@@ -68,12 +76,23 @@
         justify-content: space-between;
         color: white;
         padding: 0 15px;
+        direction: ltr;
     }
     .icons {
         display: flex;
         align-items: center;
         flex-flow: row wrap;
         gap: 40px;
+        display: none;
+    }
+    .icons2 {
+        padding-right: 45px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        cursor: pointer;
     }
     .icons>svg {
         fill: white;
@@ -82,18 +101,20 @@
     .icons>svg:hover {
         fill: var( --Red);
     }
-    
+    .BarIcon {
+        cursor: pointer;
+    }
     .logo {
         position: absolute;
         top: 0;
-        width: 8%;
-        height: auto;
+        width: 20%;
+        height: 100%;
         inset: 0;
         margin: auto;
     }
     .logo>img {
         width: 100%;
-        height: 78px;
+        height: 100%;
         object-fit: cover;
     }
     

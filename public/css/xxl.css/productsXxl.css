@@ -1,4 +1,4 @@
-@media (min-width: 992px) {
+@media (min-width: 992px)  {
     /* category start */
 .category {
     width: 100%;
@@ -369,6 +369,7 @@ figcaption>p {
     align-items: center;
     justify-content: center;
     gap: 21px;
+    margin-bottom: 66px;
    
     cursor: pointer;
 }
@@ -385,7 +386,12 @@ figcaption>p {
     box-shadow: 0px 4px 4px 0px #D8D1CEBD;
    
 }
+.swiperContainer {
+    display: none;
 }
+}
+
+
 
 
 

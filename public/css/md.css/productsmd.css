@@ -27,7 +27,6 @@
 
 .offer {
     width: 100%;
-    
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -92,36 +91,37 @@ color: rgb(255, 179, 0);
 /* article start */
 .Article {
     width: 100%;
-    height: auto;
+    height: 484px;
     background-color: var(--Noir) ;
     display: flex;
     flex-flow: row wrap;
 }
 
 .Model {
-    width: 37%;
+    width: 40%;
     height: 100%;
 }
 .Model>img {
    height: 100%;
+   width: 100%;
     object-fit: cover;
 }
 
 .Essay {
-    width: calc(100% - 37%);
+    width: calc(100% - 40%);
     height: 100%;
     color: white;
-    padding-left: 75px;
+    padding-left: 46px;
     padding-top: 42px;
-    padding-right: 105px;
+    padding-right: 52px;
     display: flex;
-    flex-flow: column wrap;
-    gap: 35px;
+    flex-flow: column;
+    gap: 20px;
 
 
 }
 .Essay>span {
-    font-size: 19px;
+    font-size: 12px;
     font-weight: 400;
    
 }
@@ -129,35 +129,38 @@ color: rgb(255, 179, 0);
     font-size: 35px;
     font-family: Cormo;
     font-weight: 700;
-    margin-top: 20px;
 }
 .Essay>p {
-font-size: 22px;
+font-size: 16px;
 line-height: 26.82px;
 font-family: Mont ;
 font-weight: 400;
 }
 
 .ReadMore {
-    width: 21%;
+    width: 35%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 17px;
     padding-bottom: 19px;
-    padding-left: 21px;
-    padding-right: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid #E1DBD7;
     color: #FFFFFFD9;
     cursor: pointer;
     transition: all 0.3s ease; 
+    text-wrap: nowrap;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 .ReadMore > span {
     font-family: Mont;
     color: white;
     transition: color 0.3s ease; 
+    text-wrap: nowrap;
 }
 
 .ReadMore:hover > span {
@@ -190,7 +193,7 @@ font-weight: 400;
 
 }
 .Sample {
-    width: 43%;
+    width: 45%;
     height: auto;
 }
 .Sample>img {
@@ -199,47 +202,52 @@ font-weight: 400;
     object-fit: cover;
 }
 .GiftText {
-    width: calc(100% - 43%);
-    background-color: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
+    width: calc(100% - 45%);
+    background: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
     linear-gradient(275.66deg, rgba(119, 150, 175, 0.2) 17.15%, rgba(255, 255, 255, 0.2) 51.12%);
     display: flex;
-    flex-flow: column wrap;
-    padding-left: 104px;
-    padding-right: 102px;
-    padding-top: 85px;
+    flex-flow: column;
+    padding-left: 79px;
+    padding-right: 27px;
+    padding-top: 30px;
     gap: 25px;
+    text-wrap: nowrap;
+    justify-content: center;
 }
 .GiftText>h3 {
-    font-size: 45px;
+    font-size: 35px;
     font-family: Cormo;
     font-weight: 700;
+    text-wrap: nowrap;
     
 }
 .GiftText>p {
-    font-size: 23px;
+    font-size: 16px;
     font-family: Mont;
     font-weight: 400;
 }
 .ShopGift {
-    width: 25%;
+    width: 36%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 17px;
-    padding-bottom: 19px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
     border: 1px solid #0C0606;
     color: #0C0606;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-wrap: nowrap;
 }
 .ShopGift>span {
-    font-family: Karla;
+    font-family: Mont;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 14px;
     transition: all 0.3s ease;
+    text-wrap: nowrap;
 }
 .ShopGift:hover {
     background-color: black;
@@ -253,14 +261,14 @@ font-weight: 400;
 /* article start */
 .Article {
     width: 100%;
-    height: 638px;
+    height: 560px;
     background-color: var(--Noir) ;
     display: flex;
     flex-flow: row wrap;
 }
 
 .Model2 {
-    width: 44.5%;
+    width: 45%;
     height: 100%;
 }
 .Model2>img {
@@ -269,56 +277,64 @@ font-weight: 400;
 }
 
 .Essay2 {
-    width: calc(100% - 44.5%);
+    width: calc(100% - 45%);
     height: 100%;
     color: white;
-    padding-left: 75px;
+    padding-left: 46px;
     padding-top: 42px;
-    padding-right: 105px;
+    padding-right: 52px;
     display: flex;
-    flex-flow: column wrap;
-    gap: 35px;
+    flex-flow: column;
+    gap: 20px;
+    background-color: var(--Noir)
+
+  
+
 
 
 }
 .Essay2>span {
-    font-size: 19px;
+    font-size: 12px;
     font-weight: 400;
    
 }
 .Essay2>h3 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: Cormo;
     font-weight: 700;
-    margin-top: 20px;
+    text-wrap: nowrap;
 }
 .Essay2>p {
-font-size: 22px;
-line-height: 26.82px;
-font-family: Mont ;
-font-weight: 400;
+    font-size: 16px;
+    line-height: 26.82px;
+    font-family: Mont ;
+    font-weight: 400;
 }
 
 .ReadMore2 {
-    width: 24%;
+    width: 35%;
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 17px;
     padding-bottom: 19px;
-    padding-left: 21px;
-    padding-right: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid #E1DBD7;
     color: #FFFFFFD9;
-    transition: all 0.3s ease;
     cursor: pointer;
+    transition: all 0.3s ease; 
+    text-wrap: nowrap;
+    font-size: 14px;
+    margin-top: 10px;
   
 }
 .ReadMore2>span {
     font-family: Mont;
     color: white;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease; 
+    text-wrap: nowrap;
 }
 
 .ReadMore2:hover > span {
@@ -335,12 +351,14 @@ figcaption {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    text-wrap: nowrap;
+
 }
 figcaption>span {
     font-size: 18px;
     font-family: Cormo;
     color: #000000B2;
-    ;
+    text-wrap: nowrap;
 }
 figcaption>p {
     font-size: 22px;
@@ -359,6 +377,7 @@ figcaption>p {
     align-items: center;
     gap: 17px;
     justify-content: center;
+    display: none;
 }
 .offers1 {
     width: 16.5%;
@@ -385,4 +404,50 @@ figcaption>p {
     box-shadow: 0px 4px 4px 0px #D8D1CEBD;
    
 }
+
 }
+
+/* swiper start */
+.swiperContainer {
+    width: 100%;
+    height: auto;
+   
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16.5%;
+    background-color: white;
+    flex-flow: column;
+    margin-bottom: 66px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px 0px #D8D1CEBD;
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide span {
+    font-family: Cormo;
+    font-size: 18px;
+  }
+  .swiper-slide p {
+    font-family: Cormo;
+    font-size: 22px;
+  }
+/* swiper end */
