@@ -2,7 +2,12 @@
         /* category start */
 .category {
     width: 100%;
-    height: 619px;
+    height: auto;
+    margin-bottom: 56px;
+}
+
+.MobileCat {
+    display: none;
 }
 
 .catTitle {
@@ -138,7 +143,8 @@ font-weight: 400;
 }
 
 .ReadMore {
-    width: 35%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -214,6 +220,14 @@ font-weight: 400;
     text-wrap: nowrap;
     justify-content: center;
 }
+
+.GiftText:nth-last-of-type(1) {
+    display: none;
+    height: 340px;
+    position: relative;
+    bottom: 95px;
+    background-color: white;
+}
 .GiftText>h3 {
     font-size: 35px;
     font-family: Cormo;
@@ -227,7 +241,8 @@ font-weight: 400;
     font-weight: 400;
 }
 .ShopGift {
-    width: 36%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -312,7 +327,8 @@ font-weight: 400;
 }
 
 .ReadMore2 {
-    width: 35%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;

@@ -5,7 +5,7 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/css/main.css">
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
     <title>Vite App</title>
   </head>
   <body>
@@ -40,6 +40,12 @@
               
               
             
+          
+      </div>
+      <div class="icons3">
+        <svg width="38" height="38" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.2361 22.3723L15.3216 14.897C16.3946 13.3973 16.975 11.5638 16.975 9.63526C16.975 7.32676 16.1416 5.16219 14.6346 3.53013C13.1277 1.89807 11.1201 1 8.98749 1C6.85483 1 4.84731 1.90094 3.34033 3.53013C1.8307 5.15932 1 7.32676 1 9.63526C1 11.9409 1.83336 14.1112 3.34033 15.7404C4.84731 17.3724 6.85217 18.2705 8.98749 18.2705C10.7714 18.2705 12.4647 17.643 13.8519 16.4859L20.7664 23.9583C20.7866 23.9802 20.8107 23.9976 20.8372 24.0095C20.8637 24.0213 20.8921 24.0275 20.9208 24.0275C20.9495 24.0275 20.9779 24.0213 21.0044 24.0095C21.0309 23.9976 21.0549 23.9802 21.0752 23.9583L22.2361 22.7062C22.2564 22.6842 22.2724 22.6582 22.2834 22.6296C22.2944 22.6009 22.3001 22.5702 22.3001 22.5392C22.3001 22.5082 22.2944 22.4775 22.2834 22.4489C22.2724 22.4202 22.2564 22.3942 22.2361 22.3723ZM13.2049 14.1947C12.076 15.4122 10.5797 16.0829 8.98749 16.0829C7.39531 16.0829 5.89899 15.4122 4.77009 14.1947C3.64386 12.9742 3.0235 11.3566 3.0235 9.63526C3.0235 7.91396 3.64386 6.29341 4.77009 5.07584C5.89899 3.85827 7.39531 3.1876 8.98749 3.1876C10.5797 3.1876 12.0786 3.85539 13.2049 5.07584C14.3311 6.29629 14.9515 7.91396 14.9515 9.63526C14.9515 11.3566 14.3311 12.9771 13.2049 14.1947Z" fill="white" stroke="#1C1B17" stroke-width="0.852002"/>
+          </svg>
           
       </div>
       <div class="location">
@@ -138,8 +144,14 @@
    <div class="category">
     <div class="catTitle"><span>Shop by category</span><br><br><p> Indulge in what we offer.</p>
     </div>
-
-
+  
+    <div class="MobileCat">
+      <span class="Cat"> NECKLACES</span>
+      <span class="Cat"> EARRINGS</span>
+      <span class="Cat"> BRACELETS</span>
+      <span class="Cat"> RINGS</span>
+      <span class="Cat"> CHARMS</span>
+    </div>
 
     <div class="offer">
       <figure class="offers">
@@ -218,6 +230,12 @@
       <picture class="Sample">
        <img src="./public/images/sample.jpeg" alt="">
       </picture>
+      <div class="GiftText">
+        <h3>Gifts of the Season</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Metus vulputate eu scelerisque felis imperdiet proin fermentum. Cras semper auctor neque vitae tempus quam pellentesque. Elementum sagittis vitae et leo duis. </p>
+        <div class="ShopGift"><span> SHOP GIFTS
+        </span></div>
+       </div>
       </div>
   </div>
   <!-- Gifts end -->
@@ -479,7 +497,7 @@
     <!-- footer end -->
    </div>
   <!-- end project -->
-   <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+   <script src="./swiper/swiper-bundle.min.js"></script>
    <script>
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,

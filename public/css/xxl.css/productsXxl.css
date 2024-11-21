@@ -4,7 +4,9 @@
     width: 100%;
     height: 619px;
 }
-
+.MobileCat {
+    display: none;
+}
 .catTitle {
     
     text-align: center;
@@ -39,7 +41,7 @@
     height: auto;
     background-color: white;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     gap: 21px;
@@ -92,7 +94,7 @@ color: rgb(255, 179, 0);
 /* article start */
 .Article {
     width: 100%;
-    height: auto;
+    height: fit-content;
     background-color: var(--Noir) ;
     display: flex;
     flex-flow: row wrap;
@@ -101,10 +103,12 @@ color: rgb(255, 179, 0);
 .Model {
     width: 37%;
     height: 100%;
+    display: block;
 }
 .Model>img {
    height: 100%;
     object-fit: cover;
+    height: 100%;
 }
 
 .Essay {
@@ -115,8 +119,9 @@ color: rgb(255, 179, 0);
     padding-top: 42px;
     padding-right: 105px;
     display: flex;
-    flex-flow: column wrap;
-    gap: 35px;
+    flex-flow: column;
+    gap: 32px;
+    background-color: var(--Noir)
 
 
 }
@@ -129,7 +134,7 @@ color: rgb(255, 179, 0);
     font-size: 35px;
     font-family: Cormo;
     font-weight: 700;
-    margin-top: 20px;
+    padding-top: 10px;
 }
 .Essay>p {
 font-size: 22px;
@@ -139,7 +144,8 @@ font-weight: 400;
 }
 
 .ReadMore {
-    width: 21%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -172,7 +178,7 @@ font-weight: 400;
 /* Gifts start */
 .GiftWrapper {
     width: 100%;
-    height: 599px;
+    height: 699px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -180,18 +186,21 @@ font-weight: 400;
 }
 .Gifts {
     width: 100%;
-    height: 498px;
+    height: 600px;
     background-color: white;
     display: flex;
     flex-flow: row nowrap;
     background-color: transparent;
     justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 
 
 }
 .Sample {
     width: 43%;
-    height: auto;
+    
+    display: block;
 }
 .Sample>img {
    height: 100%;
@@ -200,14 +209,24 @@ font-weight: 400;
 }
 .GiftText {
     width: calc(100% - 43%);
-    background-color: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
+    background: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
     linear-gradient(275.66deg, rgba(119, 150, 175, 0.2) 17.15%, rgba(255, 255, 255, 0.2) 51.12%);
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     padding-left: 104px;
     padding-right: 102px;
     padding-top: 85px;
     gap: 25px;
+    height: fit-content;
+    padding-bottom: 30px;
+    
+}
+.GiftText:nth-last-of-type(1) {
+    display: none;
+    height: 340px;
+    position: relative;
+    bottom: 95px;
+    background-color: white;
 }
 .GiftText>h3 {
     font-size: 45px;
@@ -221,7 +240,8 @@ font-weight: 400;
     font-weight: 400;
 }
 .ShopGift {
-    width: 25%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -253,7 +273,7 @@ font-weight: 400;
 /* article start */
 .Article {
     width: 100%;
-    height: 638px;
+    height: 746px;
     background-color: var(--Noir) ;
     display: flex;
     flex-flow: row wrap;
@@ -261,7 +281,7 @@ font-weight: 400;
 
 .Model2 {
     width: 44.5%;
-    height: 100%;
+    height: 746px;
 }
 .Model2>img {
    height: 100%;
@@ -276,8 +296,9 @@ font-weight: 400;
     padding-top: 42px;
     padding-right: 105px;
     display: flex;
-    flex-flow: column wrap;
-    gap: 35px;
+    flex-flow: column;
+    gap: 32px;
+    background-color: var(--Noir)
 
 
 }
@@ -300,7 +321,8 @@ font-weight: 400;
 }
 
 .ReadMore2 {
-    width: 24%;
+    width: fit-content;
+    text-wrap: nowrap;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -332,7 +354,7 @@ font-weight: 400;
 
 figcaption {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -365,7 +387,7 @@ figcaption>p {
     height: auto;
     background-color: white;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     justify-content: center;
     gap: 21px;

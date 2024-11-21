@@ -34,7 +34,9 @@
         align-items: center;
         gap: 40px;
     }
-    
+    .icons3 {
+        display: none;
+    }
     .InfonLocation {
         display: flex;
         flex-flow: row wrap;
@@ -133,7 +135,7 @@
         padding: 0 64px; 
         padding-top: 90px;
         display: flex;
-        flex-flow: column wrap;
+        flex-flow: column ;
         justify-content: center;
         padding-left: 64px;
         font-family: 'Anton';
@@ -153,7 +155,8 @@
         padding-left: 32px;
     }
     .ShopBtn {
-        width: 11%;
+        width: fit-content;
+    text-wrap: nowrap;
         background-color: transparent;
         display: flex;
         align-items: center;

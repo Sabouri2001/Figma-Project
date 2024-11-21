@@ -94,6 +94,11 @@
         gap: 25px;
         cursor: pointer;
     }
+
+    .icons3 {
+        display: none;
+    }
+    
     .icons>svg {
         fill: white;
         cursor: pointer;
@@ -142,24 +147,22 @@
     
     .heroTitle {
         color: white;
-        
         height: 100%;
         background-color: transparent;
         position: relative; 
         z-index: 2; 
-        padding: 0 64px; 
-        padding-top: 90px;
+        padding-bottom: 110px;
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
-        padding-left: 64px;
+        justify-content: flex-end;
+        padding-left: 35px;
         font-family: 'Anton';
         font-weight: 400;
     }
     .heroTitle>span {
         font-family: Cormo;
         font-weight: 400;
-        font-size: 80px;
+        font-size: 65px;
         margin-bottom: 18px;
         margin-top: 90px;
     }
@@ -170,13 +173,14 @@
         padding-left: 32px;
     }
     .ShopBtn {
-        width: 11%;
+        width: fit-content;
+        text-wrap: nowrap;
         background-color: transparent;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 17px;
-        padding-bottom: 19px;
+        padding-top: 13px;
+        padding-bottom: 15px;
         padding-left: 21px;
         padding-right: 21px;
         border: 1px solid #E1DBD7;
@@ -189,6 +193,7 @@
     }
     .ShopBtn>span {
         font-family: Mont;
+        font-size: 14px;
     }
     
     .ShopBtn:hover {
