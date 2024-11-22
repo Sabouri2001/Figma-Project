@@ -1,0 +1,168 @@
+@media (min-width: 375px) and (max-width: 768px) {
+    footer {
+        width: 100%;
+        height: fit-content;
+        background-color: var(--Noir) ;
+        border-top: 5px solid #403E3D;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between ;
+        align-items: center;
+    }
+    .topFooter {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+       
+        background-color: transparent;
+        align-items: center;
+        justify-content: space-around;
+
+    
+    }
+    .topFooter1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+       
+        background-color: transparent;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .EndText>ul>li {
+        color: var(--Gray-L);
+        text-decoration: none;
+        list-style: none;
+        font-family: Mont;
+        font-size: 13px;
+        line-height: 30px;
+        text-wrap: nowrap;
+        width: fit-content;
+        
+    }
+    .EndText2>ul>li {
+        color: var(--Gray-L);
+        text-decoration: none;
+        list-style: none;
+        font-family: Mont;
+        font-size: 13px;
+        line-height: 19px;
+        text-wrap: nowrap;
+        
+    }
+    .EndText2>ul {
+        padding-top: 35px;
+        text-wrap: nowrap;
+    }
+    .EndText2>ul>li:nth-of-type(1) {
+        color: white;
+        font-size: 14px;
+        line-height: 25px;
+        font-family: Cormo;
+        text-wrap: nowrap;
+    }
+
+    .EndText:nth-of-type(2) {
+        display: none;
+    }
+    .EndText:nth-of-type(3) {
+        display: none;
+    }
+    .EndText>ul {
+        padding-top: 35px;
+        text-wrap: nowrap;
+        width: fit-content;
+    }
+    .EndText>ul>li:nth-of-type(1) {
+        color: white;
+        font-size: 14px;
+        line-height: 25px;
+        font-family: Cormo;
+        text-wrap: nowrap;
+    }
+    .Endlogo {
+        width: 30%;
+        height: 108px;
+        background-image: url(/public/images/logo1.png);
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px;
+       
+    }
+    .Endlogo:nth-last-of-type(1) {
+        display: none;
+    }
+    .Social {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        top: 105px;
+      
+    }
+   
+   .myLine {
+    width: 88%;
+    height: 1px;
+    background-color: white;
+   }
+   .Right1 {
+    width: 100%;
+   }
+   .entity {
+    display: none;
+   }
+    /* bottom footer start */
+    .bottomFooter {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 6%;
+        color: white;
+        gap: 2%;
+        margin-bottom: 29px;
+        padding-top: 2px;
+       
+    }
+    .Right {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        margin-right: 71px;
+        font-size: 13px;
+        font-family: Karla;
+        color: var(--Gray-Font);
+        margin: 72px 0 auto;
+        margin-bottom: 4px;
+        display: none;
+    }
+    .Right1 {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        margin-right: 71px;
+        font-size: 13px;
+        font-family: Karla;
+        color: var(--Gray-Font);
+        margin: 72px 0 auto;
+        margin-bottom: 4px;
+    }
+    .bottomFooter>span {
+        font-family: Karla;
+        font-size: 11px;
+        color: var(--Gray-Font);
+    }
+    
+    /* bottom footer end */  
+}
