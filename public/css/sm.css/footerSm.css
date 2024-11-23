@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     footer {
         width: 100%;
         height: fit-content;
@@ -124,6 +124,7 @@
         display: flex;
         flex-flow: row nowrap;
         align-items: center;
+        justify-content: center;
         padding-left: 6%;
         color: white;
         gap: 2%;
