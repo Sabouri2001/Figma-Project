@@ -153,7 +153,7 @@
         justify-content: center;
         gap: 2px;
         margin-right: 71px;
-        font-size: 13px;
+        font-size: 8px;
         font-family: Karla;
         color: var(--Gray-Font);
         margin: 72px 0 auto;
@@ -161,7 +161,8 @@
     }
     .bottomFooter>span {
         font-family: Karla;
-        font-size: 11px;
+        font-size: 8px;
         color: var(--Gray-Font);
+        text-wrap: nowrap;
     }
 }
