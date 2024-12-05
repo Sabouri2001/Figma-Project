@@ -1,0 +1,456 @@
+@media (min-width: 375px) and (max-width: 554px) {
+    .category {
+        width: 100%;
+        height: auto;
+        margin-bottom: 56px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        padding-top: 5%;
+        margin-top: 20px;
+    }
+    
+    .catTitle {
+        
+        text-align: center;
+        margin-top: 47px;
+        margin-bottom: 44px;
+    }
+    .catTitle>span {
+        font-size: 38px;
+        font-family: Cormo;
+        font-weight: 400;
+        text-align: center;
+        color: #0C0606;
+    }
+    .catTitle>p {
+        font-size: 18px;
+        color: #0C0606;
+        font-weight: 400;
+        font-family: CormoItalic;
+    }
+    .MobileCat {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        font-size: 26px;
+        width: 58%;
+        border-left: 1px solid var(--Gold-Brown);
+        border-right: 1px solid var(--Gold-Brown);
+        margin-top: 81px;
+        margin-bottom: 20px;
+        color: var(--Gold-Brown);
+        cursor: pointer;
+    
+    }
+    .offer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 17px;
+        justify-content: center;
+        display: none;
+    }
+    .offers {
+        width: 16.5%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+        transition: opacity 0.3s ease; 
+        cursor: pointer;
+    }
+    .offers > picture {
+        position: relative;
+        width: 100%; 
+        display: inline-block;
+    }
+    
+    .offers > picture > img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 4px 4px 0px #D8D1CEBD;
+        transition: opacity 0.3s ease; 
+    }
+    
+    .offers > picture > .hover-img {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease; 
+    }
+    
+    .offers:hover  > picture > .hover-img {
+        opacity: 1; 
+    }
+    
+    .offers:hover  > picture > img {
+        opacity: 0; 
+    }
+    
+    .offers>figcaption {
+        font-size: 24px;
+        font-family: Cormo;
+        transition: color 0.3s ease; 
+    }
+    .offers:hover > figcaption {
+    color: rgb(255, 179, 0);
+    }
+    /* category end */
+    
+    /* article start */
+    .Article {
+        width: 100%;
+        height: 100%;
+        background-color: var(--Noir) ;
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+    }
+    
+    .Model {
+        width: 100%;
+        height: 680px;
+        position: relative;
+    }
+    .Model>img {
+       height: 100%;
+       width: 100%;
+        object-fit: cover;
+    }
+    
+    .Essay {
+        width: 100%;
+        height: 100%;
+        color: white;
+        padding-left: 46px;
+        padding-top: 55px;
+        top: 110px;
+        display: flex;
+        flex-flow: column;
+        gap: 13px;
+        position: absolute;
+        padding-right: 40px;
+    
+    
+    }
+    .Essay>span {
+        font-size: 12px;
+        font-weight: 400;
+        display: none;
+       
+    }
+    .Essay>h3 {
+        font-size: 30px;
+        font-family: Cormo;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+    .Essay>p {
+    font-size: 14px;
+    line-height: 26.82px;
+    font-family: Mont ;
+    font-weight: 400;
+    }
+    
+    .ReadMore {
+        width: fit-content;
+        text-wrap: nowrap;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 14px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid #E1DBD7;
+        color: #FFFFFFD9;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        text-wrap: nowrap;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .ReadMore > span {
+        font-family: Mont;
+        color: white;
+        transition: color 0.3s ease; 
+        text-wrap: nowrap;
+    }
+    
+    .ReadMore:hover > span {
+        color: black; 
+    }
+    
+    .ReadMore:hover {
+        background-color: rgba(255, 255, 255, 0.653); 
+    }
+    /* article end */
+    
+    /* Gifts start */
+    .GiftWrapper {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .Gifts {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+       
+        background-color: transparent;
+        justify-content: space-between;
+    
+    
+    }
+    .Sample {
+        width: 100%;
+        height: auto;
+    }
+    .Sample>img {
+       height: 100%;
+       width: 100%;
+        object-fit: cover;
+    }
+    .GiftText {
+        width: 100%;
+        background: linear-gradient(0deg, rgba(119, 150, 175, 0.2), rgba(119, 150, 175, 0.2)),
+        linear-gradient(275.66deg, rgba(119, 150, 175, 0.2) 17.15%, rgba(255, 255, 255, 0.2) 51.12%);
+        display: flex;
+        flex-flow: column;
+        padding-left: 79px;
+        padding-right: 27px;
+        padding-top: 30px;
+        gap: 25px;
+        justify-content: center;
+        display: none;
+        
+    }
+    .GiftText:nth-last-of-type(1) {
+        display: block;
+        height: fit-content;
+        position: relative;
+        bottom: 95px;
+        padding-bottom: 10%;
+        background-color: white;
+    }
+    .GiftText>h3 {
+        font-size: 35px;
+        font-family: Cormo;
+        font-weight: 700;
+        text-wrap: nowrap;
+        height: 70px;
+        
+    }
+    .GiftText>p {
+        font-size: 18px;
+        font-family: Mont;
+        font-weight: 400;
+        line-height: 23px;
+        
+    }
+    .ShopGift {
+        width: fit-content;
+        text-wrap: nowrap;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 13px;
+        padding-left: 22px;
+        padding-right: 22px;
+        border: 1px solid #0C0606;
+        color: #0C0606;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-wrap: nowrap;
+        margin-top: 16px;
+    }
+    .ShopGift>span {
+        font-family: Mont;
+        font-weight: 400;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        text-wrap: nowrap;
+    }
+    .ShopGift:hover {
+        background-color: black;
+    }
+    .ShopGift:hover >span {
+        color: white;
+    }
+    /* Gifts end */
+    
+    
+    /* article start */
+    .Article {
+        width: 100%;
+        height: 100%;
+        background-color: var(--Noir) ;
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+    }
+    
+    .Model2 {
+        width: 100%;
+        height: 774px;
+        position: relative;
+    }
+    .Model2>img {
+       height: 100%;
+       width: 100%;
+        object-fit: cover;
+    }
+    
+    .Essay2 {
+        width: 100%;
+        height: 100%;
+        color: white;
+        padding-left: 46px;
+        padding-top: 42px;
+        top: 200px;
+        display: flex;
+        flex-flow: column;
+        gap: 18px;
+        position: absolute;
+        padding-right: 40px;
+    
+    
+    }
+    .Essay2>span {
+        font-size: 11px;
+        font-weight: 400;
+        display: none;
+       
+    }
+    .Essay2>h3 {
+        font-size: 30px;
+        font-family: Cormo;
+        font-weight: 700;
+        text-wrap: nowrap;
+    }
+    .Essay2>p {
+        font-size: 16px;
+        line-height: 26.82px;
+        font-family: Mont ;
+        font-weight: 400;
+    }
+    
+    .ReadMore2 {
+        width: fit-content;
+        text-wrap: nowrap;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: 1px solid #E1DBD7;
+        color: #FFFFFFD9;
+        cursor: pointer;
+        transition: all 0.3s ease; 
+        text-wrap: nowrap;
+        font-size: 14px;
+        margin-top: 10px;
+      
+    }
+    .ReadMore2>span {
+        font-family: Mont;
+        color: white;
+        transition: color 0.3s ease; 
+        text-wrap: nowrap;
+        font-size: 16px;
+    }
+    
+    .ReadMore2:hover > span {
+        color: black; 
+    }
+    
+    .ReadMore2:hover {
+        background-color: rgba(255, 255, 255, 0.653); 
+    }
+    /* article end */
+    
+    figcaption {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-wrap: nowrap;
+    
+    }
+    figcaption>span {
+        font-size: 18px;
+        font-family: Cormo;
+        color: #000000B2;
+        text-wrap: nowrap;
+    }
+    figcaption>p {
+        font-size: 22px;
+        font-family: Cormo;
+    }
+    
+    
+    
+    
+    
+    .offer1 {
+        width: 100%;
+        
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        gap: 17px;
+        justify-content: center;
+        display: none;
+    }
+    .offers1 {
+        width: 16.5%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+       
+        cursor: pointer;
+    }
+    .offers1 > picture {
+        position: relative;
+        width: 100%; 
+        display: inline-block;
+    }
+    
+    .offers1 > picture > img {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 4px 4px 0px #D8D1CEBD;
+       
+    }
+}

@@ -1,4 +1,4 @@
-@media (min-width: 555px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 554px) {
     footer {
         width: 100%;
         height: fit-content;
@@ -164,6 +164,4 @@
         font-size: 11px;
         color: var(--Gray-Font);
     }
-    
-    /* bottom footer end */  
 }

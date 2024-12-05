@@ -9,14 +9,15 @@
         justify-content: space-between ;
     }
     .topFooter {
-        width: 100%;
+       
         height: auto;
         display: flex;
         flex-flow: row nowrap;
-        padding-left: 11%;
+        justify-content: space-between;
+        padding-left: 7%;
         padding-top: 21px;
         background-color: transparent;
-        gap: 10%;
+        gap: 5%;
         margin-bottom: 1%;
 
     
@@ -44,12 +45,12 @@
     }
   
     .Endlogo {
-        width: 16.14%;
+        width: fit-content;
         height: 147px;
         background-image: url(/public/images/logo1.png);
         background-size: cover;
         background-position: center;
-        margin-right: 7%;
+        margin-right: 6%;
 
     }
     .Endlogo:nth-of-type(1) {
